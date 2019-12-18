@@ -1,10 +1,13 @@
-# code-gov-repos-parser
+# DEPRECATED 
+## This project repo is no longer being maintained. For more information on code-gov repos, go to [GSA/code-gov](https://github.com/GSA/code-gov).
+
+## code-gov-repos-parser
 Parse out information from code.gov repos
 
-# Why?
+## Why?
 Repeating a lot of code between front-end and code-gov-data
 
-# Usage
+## Usage
 ```
 import { getAgencies } from '@code.gov/repos-parser
 
@@ -15,5 +18,5 @@ fetch("https://api.code.gov/repos?api_key=DEMO_KEY")
 .then(console.log)
 ```
 
-# Contact
+## Contact
 code@gsa.gov
